@@ -10,7 +10,7 @@
     <!-- nav bar design  -->
     <nav>
         <img src="./assets/icon/logo.png" alt="">
-        <ul id="menu-list">
+        <ul id="menu-list" class="not-visible">
             <li><a href="#">Demos</a></li>
             <li><a href="#">Pages</a></li>
             <li><a href="#">Projects</a></li>
@@ -18,12 +18,13 @@
             <li><a href="#">Blocks</a></li>
             <li><a href="#">Documentation</a></li>
         </ul>
-        <div>
+        <div id="language">
             <p>EN</p>
         </div>
         <div id="responsive-menu">
-            <button>Menu</button>
+            <button id="menu" onclick='menu()'>Menu</button>
         </div>
     </nav>
 </body>
+<script src="./app/app.js"></script>
 </html>

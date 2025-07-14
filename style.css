@@ -5,6 +5,12 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+:root{
+    font-size: 16px;
+    --primary-color: #747ED1;
+    --secondary-color: #E9EAF8;
+}
+
 li{
     list-style-type: none;
 }
@@ -13,10 +19,15 @@ a{
     text-decoration: none;
 }
 
-:root{
-    font-size: 16px;
-    --primary-color: #747ED1;
-    --secondary-color: #E9EAF8;
+
+button{
+    border:none;
+    background: var(--primary-color);
+    padding: .8rem 1rem;
+    border-radius: .4rem;
+    font-size: 1.02rem;
+    color: #fff;
+    font-size: 1.02rem;
 }
 
 body{
@@ -67,9 +78,60 @@ nav > div > p{
 }
 
 @media screen and (max-width: 767px) {
-    
+    nav{
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .not-visible{
+        flex-direction: column;
+        align-items: self-start;
+        position: absolute;
+        top: 4rem;
+        left: -12rem;
+        background: #d3d2d2;
+        padding: 1rem;
+        transition: linear 0.2s;
+    }
+    .visible{
+        flex-direction: column;
+        align-items: self-start;
+        position: absolute;
+        top: 4rem;
+        left: 0.5rem;
+        background: #d3d2d2;
+        padding: 1rem;
+        transition: linear 0.2s;
+    }
+
+    #menu-list > li{
+        border-bottom: 1px solid gray;
+        width: 100%;
+        padding-bottom: 6px;
+    }
+
+    #language{
+        display: none;
+    }
+    #responsive-menu{
+        display: block;
+    }
 }
 
 @media screen and (max-width:480px) {
-    
+     nav{
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+     #menu-list{
+        display:none;
+    }
+
+    #language{
+        display: none;
+    }
+
+    #responsive-menu{
+        display: block;
+    }
 }
