@@ -154,7 +154,7 @@ main {
     margin: 3rem;
 }
 
-.service-img{
+.service-img {
     width: 100%;
 }
 
@@ -209,45 +209,144 @@ main {
     transition: linear .3s;
 }
 
+/* working process section  */
+
+#working-container {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#working-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+#working-process {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.single-working-process {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.single-working-process>img {
+    width: 44px;
+    height: 44px;
+    margin: 10px auto;
+}
+
+
 
 /* Responsive Design  */
 
 
-@media screen and (min-width: 1024px) {
-   
-}
+@media screen and (min-width: 1024px) {}
 
 @media screen and (min-width: 768px) {
 
-    #service-section-body{
+    .section-top {
+        width: 90%;
+        text-align: center;
+    }
+
+    #service-section-body {
         width: 80%;
         margin: 2rem 0;
     }
 
-    .single-service{
+    .single-service {
         width: 90%;
     }
-    .service-img{
+
+    .service-img {
         width: 50%;
     }
-    .single-service-body-description{
+
+    .single-service-body-description {
         width: 50%;
     }
-    .single-service-description{
+
+    .single-service-description {
         width: 98%;
     }
-    .body-list{
+
+    .body-list {
         width: 98%;
     }
-    .single-list{
-         width: 98%;
+
+    .single-list {
+        width: 98%;
     }
-    .list-icon{
+
+    .list-icon {
         margin-right: 20px;
+    }
+
+    #working-container {
+        background-color: #fff;
+        margin: 1rem 0;
+        border-radius: 10px;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #working-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    #working-process {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.5rem;
+        margin: 2.5rem 0;
+    }
+
+    .single-working-process {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .single-working-process>img {
+        width: 44px;
+        height: 44px;
+        margin: 10px auto;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .section-top {
+        width: 80%;
+        text-align: center;
+    }
+
     nav {
         justify-content: space-between;
         padding: 0 1rem;
@@ -302,31 +401,37 @@ main {
         font-size: 1.2rem;
     }
 
-    #service-section-body{
-        
-    }
+    #service-section-body {}
 
-    .single-service-description{
+    .single-service-description {
         width: 95%;
     }
 
-    .single-service{
+    .single-service {
         flex-direction: column;
         justify-content: center;
         align-content: center;
     }
-    .body-list{
+
+    .body-list {
         width: 98%;
     }
-    .single-list{
-         width: 98%;
+
+    .single-list {
+        width: 98%;
     }
-    .list-icon{
+
+    .list-icon {
         margin-right: 20px;
     }
 }
 
 @media screen and (max-width:480px) {
+    .section-top {
+        width: 100%;
+        text-align: center;
+    }
+
     nav {
         justify-content: space-between;
         padding: 0 1rem;
@@ -366,27 +471,31 @@ main {
         font-weight: 700;
     }
 
-     #service-section-body{
+    #service-section-body {
         width: 100%;
         margin: 2rem 0;
     }
 
-    .single-service{
+    .single-service {
         flex-direction: column;
         justify-content: center;
         align-content: center;
         width: 90%;
     }
-    .single-service-description{
+
+    .single-service-description {
         width: 98%;
     }
-    .body-list{
+
+    .body-list {
         width: 98%;
     }
-    .single-list{
-         width: 98%;
+
+    .single-list {
+        width: 98%;
     }
-    .list-icon{
+
+    .list-icon {
         margin-right: 20px;
     }
 }
