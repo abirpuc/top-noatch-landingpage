@@ -408,6 +408,99 @@ main {
     font-weight: 500;
 }
 
+/* footer design  */
+
+footer{
+    margin: 1rem;
+    background-color: #21262c;
+    border-radius: 10px;
+    color: white;
+   
+}
+
+footer > p{
+    color: gray;
+    padding: 1rem;
+}
+
+#information-container{
+    width: 90%;
+     display: flex;
+    justify-content: center;
+    align-items: self-start;
+    padding: 5rem;
+    gap: 12rem;
+}
+
+.footer-title{
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.footer-info-des{
+    padding-bottom: .5rem;
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.social-media > i{
+    cursor: pointer;
+}
+
+.social-media > i:hover{
+    scale: 2;
+    transition: linear .3s;
+}
+
+.contact-info{
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    flex-direction: column;
+}
+
+.footer-list li a{
+    color: #fff;
+}
+.footer-list li a:hover{
+    color: gray;
+}
+
+form{
+    margin: 4rem 0;
+}
+
+.email{
+    outline: none;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid gray;
+    color: gray;
+}
+.email:focus{
+    outline:none;
+}
+
 
 
 /* Responsive Design  */
