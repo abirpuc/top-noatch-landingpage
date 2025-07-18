@@ -44,7 +44,7 @@ section {
 }
 
 .section-top {
-    width: 40%;
+    width: 70%;
     text-align: center;
 }
 
@@ -380,6 +380,34 @@ main {
     color: gray;
 }
 
+#community-container{
+    padding-top: 3rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#calculation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 1.5rem;
+}
+
+.counter{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.counter-description{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 
 /* Responsive Design  */
@@ -387,7 +415,7 @@ main {
 
 @media screen and (min-width: 1024px) {
     .section-top {
-        width: 40%;
+        width: 80%;
         text-align: center;
         margin: 0 auto;
     }
